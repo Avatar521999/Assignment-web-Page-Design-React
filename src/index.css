@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .paragraph {
+        @apply text-sm font-light pt-3;
+    }
+    .cp {
+        @apply text-lg pt-3 font-normal;
+    }
+    /* ... */
+  }
